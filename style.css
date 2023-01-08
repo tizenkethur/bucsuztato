@@ -6,14 +6,10 @@
   color: rgb(192, 99, 38);
 }
 
-#main-container {
-  display: flex;
-}
-
 nav {
   display: flex;
   justify-content: flex-end;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
   width: 100%;
   height: 70px;
@@ -22,6 +18,8 @@ nav {
 
 .link-container {
   padding: 10px;
+  display: flex;
+  align-items: center;
 }
 
 a {
