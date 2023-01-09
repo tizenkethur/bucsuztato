@@ -2,6 +2,7 @@ body {
   background-image: url('../assets/output-onlinepngtools.png');
   background-size: 100%;
   background-repeat: no-repeat;
+  /* shape-outside: url('../assets/output-onlinepngtools.png'); */
 }
 
 #main-container {
