@@ -8,10 +8,10 @@
 
 nav {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
   font-size: 24px;
   font-weight: bold;
-  width: 100%;
+  width: 200px;
   height: 70px;
   letter-spacing: 1px;
 }
@@ -20,6 +20,7 @@ nav {
   padding: 10px;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 a {
@@ -32,12 +33,11 @@ a:visited {
   color: rgb(192, 99, 38);
 }
 
-.active {
-  /* font-size: 32px; */
-  text-decoration: underline 0.15rem;
-  text-underline-offset: 0.5rem;
+a:hover {
+  color: rgb(253,198,19);
 }
 
-.link-container:hover {
-  background-color: rgb(245, 245, 220, 0.7);
+.active {
+  text-decoration: underline 0.15rem;
+  text-underline-offset: 0.5rem;
 }
