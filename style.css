@@ -11,9 +11,19 @@ nav {
   flex-direction: column;
   font-size: 24px;
   font-weight: bold;
-  width: 200px;
-  height: 70px;
+  /* width: 200px;
+  height: 70px; */
   letter-spacing: 1px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(246, 241, 241);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
 .link-container {
@@ -23,10 +33,19 @@ nav {
   width: 100%;
 }
 
-a {
+nav .closebtn {
+  position: absolute;
+  top: 0;
+  left: 160px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+a,
+span {
   text-decoration: none;
   font-style: italic;
-  margin: 20px;
+  margin: 10px 20px;
 }
 
 a:visited {
@@ -34,10 +53,18 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(253,198,19);
+  color: rgb(253, 198, 19);
 }
 
 .active {
   text-decoration: underline 0.15rem;
   text-underline-offset: 0.5rem;
+}
+
+span {
+  font-size: 24px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin: 30px 30px;
 }

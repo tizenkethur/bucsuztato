@@ -16,7 +16,12 @@
 <body>
   <div id='background'>
     <div id='main-container'>
-      <nav>
+      <nav id='mySidenav'>
+        <div>
+          <a href="javascript:void(0)" class='closebtn' onclick='closeNav()'>
+            &times;
+          </a>
+        </div>
         <div class='link-container'>
           <a href="./index.html">Kezdőlap</a>
         </div>
@@ -39,6 +44,9 @@
           <a href="../feedbacks/index.html">Visszajelzések</a>
         </div class='link-container'>
       </nav>
+      <!-- <div class='link-container'> -->
+        <span onclick="openNav()">&#9776; Menü</span>
+      <!-- </div> -->
       <div id='content'>
         <div class="quote--container">
           <p class="quote">
