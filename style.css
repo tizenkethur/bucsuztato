@@ -11,8 +11,6 @@ nav {
   flex-direction: column;
   font-size: 24px;
   font-weight: bold;
-  /* width: 200px;
-  height: 70px; */
   letter-spacing: 1px;
   height: 100%;
   width: 0;
@@ -36,7 +34,7 @@ nav {
 nav .closebtn {
   position: absolute;
   top: 0;
-  left: 160px;
+  left: 200px;
   font-size: 36px;
   margin-left: 50px;
 }
@@ -59,6 +57,16 @@ a:hover {
 .active {
   text-decoration: underline 0.15rem;
   text-underline-offset: 0.5rem;
+}
+
+#span-holder {
+  background:rgb(246, 241, 241);
+  width: 160px;
+  height: 50px;
+  text-align: center;
+  margin: 30px;
+  padding-top: 5px;
+  border-radius: 3px;
 }
 
 span {

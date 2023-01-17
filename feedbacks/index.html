@@ -14,11 +14,16 @@
 </head>
 
 <body>
-  <nav>
-    <div id="main-container">
-      <nav>
+  <div id='background'>
+    <div id='main-container'>
+      <nav id='mySidenav'>
+        <div>
+          <a href="javascript:void(0)" class='closebtn' onclick='closeNav()'>
+            &times;
+          </a>
+        </div>
         <div class='link-container'>
-          <a href="../mainPage/index.html">Kezdőlap</a>
+          <a href='../mainPage/index.html'>Kezdőlap</a>
         </div>
         <div class='link-container'>
           <a href="../introduction/index.html">Bemutatkozás</a>
@@ -39,8 +44,11 @@
           <a href="./index.html">Visszajelzések</a>
         </div class='link-container'>
       </nav>
+      <div id='span-holder'>
+        <span onclick="openNav()">&#9776; Menü</span>
+      </div>
     </div>
-  </nav>
+  </div>
   <script src="../app.js"></script>
 </body>
 
