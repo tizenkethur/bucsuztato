@@ -50,7 +50,7 @@ a:visited {
   color: rgb(192, 99, 38);
 }
 
-a:hover {
+.link-container a:hover {
   color: rgb(253, 198, 19);
 }
 
