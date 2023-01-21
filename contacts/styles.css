@@ -5,8 +5,9 @@
   padding: 0;
   background-image: linear-gradient(
       to right,
-      rgb(251, 247, 247),
-      transparent 40%
+      rgb(221, 204, 204, 0.6) 10%,
+      transparent,
+      rgb(30, 28, 24)
     ),
     url(../assets/pexels-tim-eiden-1222561.jpg);
   background-size: 100%;
@@ -15,22 +16,15 @@
 #main-container {
   display: flex;
   justify-content: space-between;
-  margin-right: 100px;
 }
 
-#details-box {
+#contact-box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(
-    rgba(250, 248, 246, 0.94),
-    transparent,
-    rgba(250, 248, 246, 0.94)
-  );
-  /* background-color: rgba(250, 248, 246, 0.94); */
   width: 600px;
   margin: 30px;
-  margin-left: -10px;
+  margin-left: 200px;
   padding: 20px;
   border-radius: 3px;
   font-weight: bolder;
@@ -39,6 +33,7 @@
 
 h2 {
   font-style: italic;
+  margin: 10px;
 }
 
 p {
@@ -46,8 +41,20 @@ p {
   font-size: 18px;
 }
 
-h3 {
-  margin-top: 20px;
+#contact,
+.contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box {
+  margin-right: 10px;
+}
+
+.fa-solid {
+  font-size: 28px;
+  margin: 0;
 }
 
 .fa-facebook {
@@ -60,15 +67,14 @@ h3 {
   text-decoration: none;
   background: #3b5998;
   color: white;
-  border-radius: 50%;
+  border-radius: 5px;
 }
 
 #klári {
-  margin: 40px;
-  /* margin-right: 180px; */
-  margin-left: -200px;
+  margin: 30px;
+  margin-right: 180px;
 }
 
 img {
-  border-radius: 3px;
+  border-radius: 50%;
 }
