@@ -93,6 +93,7 @@ span {
 
 .quote:after {
   content: '”';
+  position: absolute;
   margin-right: -1rem;
 }
 

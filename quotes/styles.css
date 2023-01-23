@@ -21,7 +21,13 @@
 #quote-box {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 400px;
-  margin-top: 50px;
+  margin-top: 30px;
+  width: 1000px;
   /* color: rgba(192, 99, 38, 0.8); */
+}
+
+.author {
+  padding-left: 270px;
+  color: rgba(250, 248, 246);
+  font-style: italic;
 }
