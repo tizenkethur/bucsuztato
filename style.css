@@ -76,3 +76,32 @@ span {
   cursor: pointer;
   margin: 30px 30px;
 }
+
+.quote {
+  position: relative;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.5rem;
+  color: rgba(250, 248, 246, 0.94);
+  font-weight: lighter;
+}
+
+.quote::before {
+  content: '“';
+  position: absolute;
+  left: -0.7em;
+}
+
+.quote:after {
+  content: '”';
+  margin-right: -1rem;
+}
+
+.quote--container {
+  width: 400px;
+  border-bottom: 2px solid rgba(250, 248, 246);
+  padding-bottom: 0.5rem;
+  margin: 20px;
+  /* position: absolute;
+  bottom: 100px;
+  right: 60px; */
+}

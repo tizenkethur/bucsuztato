@@ -1,0 +1,27 @@
+#background {
+  width: 1519px;
+  /* height: 740px; */
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      to right,
+      rgb(221, 204, 204, 0.6),
+      transparent 15%,
+      rgb(30, 28, 24)
+    ),
+    url(../assets/mainpage_background.png);
+  background-size: 100%;
+}
+
+#main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#quote-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 400px;
+  margin-top: 50px;
+  /* color: rgba(192, 99, 38, 0.8); */
+}
