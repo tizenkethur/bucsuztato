@@ -6,9 +6,9 @@
   background-image: linear-gradient(
       to right,
       rgb(251, 247, 247),
-      transparent 40%
+      transparent 20%
     ),
-    url(../assets/mountain_sunrise.jpg);
+    url(../assets/pexels-tim-eiden-1222561.jpg);
   background-size: 100%;
 }
 
@@ -33,11 +33,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(
-    rgba(250, 248, 246, 0.94),
-    transparent,
-    rgba(250, 248, 246, 0.94)
-  );
+  background-color: rgba(251, 247, 247, 0.74);
   box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
     0 4px 8px -1px rgba(0, 0, 0, 0.12);
   width: 800px;

@@ -85,16 +85,8 @@ span {
   font-weight: lighter;
 }
 
-.quote::before {
+.quote::before, .quote::after {
   content: '“';
-  position: absolute;
-  left: -0.7em;
-}
-
-.quote:after {
-  content: '”';
-  position: absolute;
-  margin-right: -1rem;
 }
 
 .quote--container {

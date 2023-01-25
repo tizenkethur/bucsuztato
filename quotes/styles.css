@@ -9,21 +9,49 @@
       transparent 15%,
       rgb(30, 28, 24)
     ),
-    url(../assets/mainpage_background.png);
-  background-size: 100%;
+    url(../assets/mountain_sunrise.jpg);
+  background-size: 120%;
 }
 
 #main-container {
   display: flex;
   justify-content: space-between;
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 1000px;
+}
+
+#quote-intro {
+  /* display: flex;
+  align-items: center; */
+  text-align: justify;
+  background-color: rgba(250, 248, 246, 0.74);
+  box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
+    0 4px 8px -1px rgba(0, 0, 0, 0.12);
+  width: 800px;
+  height: 100%;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+#quote-intro span {
+  color: red;
+  font-size: 20px;
+  margin: 0;
 }
 
 #quote-box {
   display: flex;
   flex-wrap: wrap;
   margin-top: 30px;
-  width: 1000px;
-  /* color: rgba(192, 99, 38, 0.8); */
 }
 
 .author {

@@ -6,7 +6,7 @@
   background-image: linear-gradient(
       to right,
       rgba(250, 248, 246, 0.94),
-      transparent 40%
+      transparent 20%
     ),
     url(../assets/mainpage_background.png);
   background-size: 100%;
@@ -14,18 +14,13 @@
 
 #main-container {
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
 }
 
 #content {
   display: flex;
   align-items: center;
-  background: linear-gradient(
-    rgba(250, 248, 246, 0.94),
-    transparent,
-    rgba(250, 248, 246, 0.94)
-  );
+  background-color: rgba(250, 248, 246, 0.74);
   box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
     0 4px 8px -1px rgba(0, 0, 0, 0.12);
   width: 800px;
@@ -43,8 +38,8 @@
 }
 
 h2 {
-  margin: 20px;
-  margin-left: 10px;
+  margin: 10px;
+  /* margin-left: 10px; */
   font-style: italic;
 }
 
@@ -54,9 +49,17 @@ p {
   font-size: 18px;
 }
 
+#text span {
+  color: red;
+  font-style: italic;
+  font-size: 20px;
+  margin: 0;
+  cursor: default;
+}
+
 #klári {
   border-radius: 3px;
-  margin: 10px;
+  margin: 0 10px 0 20px;
   width: 200px;
   box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
     0 4px 8px -1px rgba(0, 0, 0, 0.12);
@@ -64,6 +67,14 @@ p {
 
 #content > .quote--container {
   position: absolute;
-  bottom: 100px;
-  right: 60px;
+  bottom: 50px;
+  right: 30px;
+  width: 300px;
+}
+
+#content > .quote--container > .quote {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
 }
