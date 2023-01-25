@@ -1,6 +1,5 @@
 #background {
   width: 1519px;
-  /* height: 740px; */
   margin: 0;
   padding: 0;
   background-image: linear-gradient(
@@ -16,21 +15,16 @@
 #main-container {
   display: flex;
   justify-content: space-between;
-  /* flex-direction: column; */
-  /* align-items: center; */
 }
 
 #content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   width: 1000px;
 }
 
 #quote-intro {
-  /* display: flex;
-  align-items: center; */
   text-align: justify;
   background-color: rgba(250, 248, 246, 0.74);
   box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),

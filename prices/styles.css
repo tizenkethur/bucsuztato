@@ -13,13 +13,14 @@
 
 #main-container {
   display: flex;
-  flex-wrap: wrap;
-  font-weight: bold;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
-#first-box {
-  margin-left: 100px;
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  font-weight: bold;
 }
 
 .prices-box {
@@ -29,7 +30,6 @@
   box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
     0 4px 8px -1px rgba(0, 0, 0, 0.12);
   width: 460px;
-  height: 100%;
   margin: 30px;
   padding: 20px;
   border-radius: 3px;
@@ -52,6 +52,10 @@ p {
   cursor: default;
 }
 
+#first-box span {
+  font-style: italic;
+}
+
 ul {
   padding: 0 0 10px 20px;
 }
@@ -64,33 +68,28 @@ li {
   list-style-type: none;
 }
 
-#second-box,
-#fourth-box {
+.important-text {
+  color: red;
+}
+
+#second-box {
   width: 600px;
+}
+
+.styled-list-item {
+  font-size: 18px;
+  font-style: italic;
 }
 
 #third-box {
   font-size: 18px;
-  margin-top: -100px;
-  margin-left: 320px;
 }
 
-#fourth-box {
-  margin-top: -10px;
-}
-
-#fifth-box {
-  font-size: 20px;
-  font-style: italic;
-  margin-top: -130px;
-  margin-left: 320px;
-}
-
-#fifth-box a {
+#third-box a {
   margin: 0;
 }
 
-#fifth-box span {
+#third-box span {
   color: rgb(192, 99, 38);
   font-size: 16px;
 }
