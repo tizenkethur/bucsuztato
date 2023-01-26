@@ -9,7 +9,8 @@
       transparent 20%
     ),
     url(../assets/pexels-tim-eiden-1222561.jpg);
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: 120%;
 }
 
 #main-container {

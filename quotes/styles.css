@@ -9,7 +9,8 @@
       rgb(30, 28, 24)
     ),
     url(../assets/mountain_sunrise.jpg);
-  background-size: 120%;
+  background-size: 140%;
+  background-repeat: no-repeat;
 }
 
 #main-container {
@@ -39,7 +40,7 @@
 }
 
 #quote-intro span {
-  color: red;
+  color: rgb(136, 59, 4);
   font-size: 20px;
   margin: 0;
 }

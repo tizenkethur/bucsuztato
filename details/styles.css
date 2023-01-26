@@ -1,6 +1,6 @@
 #background {
   width: 1519px;
-  height: 1200px;
+  height: 1000px;
   margin: 0;
   padding: 0;
   background-image: linear-gradient(
@@ -10,7 +10,7 @@
     ),
     url('../assets/pexels-tim-eiden-1222561.jpg');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 120%;
 }
 
 #main-container {
@@ -73,7 +73,7 @@ p {
 .comment {
   font-size: 18px;
   margin: 0;
-  color: red;
+  color: rgb(136, 59, 4);
   text-decoration: none;
 }
 

@@ -8,7 +8,7 @@
       transparent
     ),
     url(../assets/mountain_sunrise.jpg);
-  background-size: 100%;
+  background-size: 120%;
 }
 
 #main-container {
@@ -46,7 +46,7 @@ p {
 }
 
 .prices-box span {
-  color: red;
+  color: rgb(136, 59, 4);
   font-style: normal;
   font-size: 18px;
   margin: 0;
@@ -70,7 +70,9 @@ li {
 }
 
 .important-text {
-  color: red;
+  font-style: italic;
+  font-size: 20px;
+  color: rgb(136, 59, 4);
 }
 
 #second-box {
