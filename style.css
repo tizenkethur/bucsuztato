@@ -60,7 +60,6 @@ span {
 }
 
 #span-holder {
-  /* background:rgb(246, 241, 241); */
   width: 160px;
   height: 50px;
   text-align: center;
@@ -85,7 +84,8 @@ span {
   font-weight: lighter;
 }
 
-.quote::before, .quote::after {
+.quote::before,
+.quote::after {
   content: '“';
 }
 
