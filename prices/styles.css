@@ -79,20 +79,46 @@ li {
   width: 600px;
 }
 
-.styled-list-item {
-  font-size: 18px;
-  font-style: italic;
+table {
+  border-collapse: collapse;
+  border: 1px solid rgb(192, 99, 38);
+  margin-bottom: 20px;
+}
+
+thead, tr {
+  border-bottom: 1px solid rgb(192, 99, 38);
+}
+
+
+th {
+  text-align: center;
+  padding: 5px;
+  color:rgb(136, 59, 4)
+}
+
+td {
+  border-right: 1px solid rgb(136, 59, 4);
+  padding: 10px;
+}
+
+.price {
+  color:rgb(136, 59, 4);
 }
 
 #third-box {
   font-size: 18px;
+  padding: 36px;
 }
 
 #third-box a {
-  margin: 0;
+  margin: 0;  
 }
 
 #third-box span {
   color: rgb(192, 99, 38);
   font-size: 16px;
+}
+
+#third-box li {
+  font-style: italic;
 }
