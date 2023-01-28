@@ -84,9 +84,12 @@ span {
   font-weight: lighter;
 }
 
-.quote::before,
-.quote::after {
+.quote::before {
   content: '“';
+}
+
+.quote::after {
+ content: "”";
 }
 
 .quote--container {
