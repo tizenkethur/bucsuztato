@@ -68,6 +68,15 @@ span {
   border-radius: 3px;
 }
 
+#span-holder > p {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#menu {
+  margin: 10px;
+}
+
 span {
   font-size: 24px;
   font-weight: bolder;

@@ -20,7 +20,7 @@
 #content {
   display: flex;
   align-items: center;
-  background-color: rgba(250, 248, 246, 0.74);
+  background-color: rgba(250, 248, 246, 0.8);
   box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
     0 4px 8px -1px rgba(0, 0, 0, 0.12);
   width: 800px;
@@ -50,7 +50,7 @@ p {
 }
 
 #text span {
-  color: red;
+  color: rgb(136, 59, 4);
   font-style: italic;
   font-size: 20px;
   margin: 0;
@@ -69,7 +69,7 @@ p {
   position: absolute;
   bottom: 50px;
   right: 30px;
-  width: 300px;
+  width: 270px;
 }
 
 #content > .quote--container > .quote {
