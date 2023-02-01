@@ -1,8 +1,4 @@
-#background {
-  width: 1519px;
-  height: 740px;
-  margin: 0;
-  padding: 0;
+body {
   background-image: linear-gradient(
       to right,
       rgb(221, 204, 204, 0.6) 10%,
@@ -10,7 +6,6 @@
       rgb(30, 28, 24)
     ),
     url(../assets/pexels-tim-eiden-1222561.jpg);
-  background-size: 100%;
 }
 
 #main-container {
@@ -65,7 +60,6 @@ p {
   text-align: center;
   text-decoration: none;
   background-color: rgb(192, 99, 38);
-;
   color: white;
   border-radius: 5px;
 }

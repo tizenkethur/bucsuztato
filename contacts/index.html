@@ -15,67 +15,65 @@
 </head>
 
 <body>
-  <div id='background'>
-    <div id='main-container'>
-      <nav id='mySidenav'>
-        <div>
-          <a href="javascript:void(0)" class='closebtn' onclick='closeNav()'>
-            &times;
+  <div id='main-container'>
+    <nav id='mySidenav'>
+      <div>
+        <a href="javascript:void(0)" class='closebtn' onclick='closeNav()'>
+          &times;
+        </a>
+      </div>
+      <div class='link-container'>
+        <a href="../mainPage/index.html">Kezdőlap</a>
+      </div>
+      <div class='link-container'>
+        <a href="../introduction/index.html">Bemutatkozás</a>
+      </div>
+      <div class='link-container'>
+        <a href="../details/index.html">Részletek</a>
+      </div>
+      <div class='link-container'>
+        <a href="../prices/index.html">Árak</a>
+      </div>
+      <div class='link-container'>
+        <a href="./index.html">Elérhetőség</a>
+      </div>
+      <div class='link-container'>
+        <a href="../quotes/index.html">Idézetek</a>
+      </div>
+      <div class='link-container'>
+        <a href="../feedbacks/index.html">Visszajelzések</a>
+      </div class='link-container'>
+    </nav>
+    <div id='span-holder' onclick="openNav()">
+      <p>
+        &#9776;<span id='menu'>Menü</span>
+      </p>
+    </div>
+    <div id='contact-box'>
+      <h2>Tisztelt Hölgyem, Tisztelt Uram!</h2>
+      <p>Ha úgy érzi, segítségére lehetek hozzátartozója búcsúztatásában, keressen bizalommal!</p>
+      <h2>Elérhetőségeim:</h2>
+      <div id='contact'>
+        <div class='contact-box'>
+          <i class='fa fa-sharp fa-solid fa-phone'></i>
+          <a href="tel:+36302527559">+3630/252-7559
           </a>
         </div>
-        <div class='link-container'>
-          <a href="../mainPage/index.html">Kezdőlap</a>
+        <div class='contact-box'>
+          <i class='fa fa-solid fa-envelope'></i>
+          <a href="mailto:nagyklarav@gmail.com">
+            nagyklarav@gmail.com
+          </a>
         </div>
-        <div class='link-container'>
-          <a href="../introduction/index.html">Bemutatkozás</a>
-        </div>
-        <div class='link-container'>
-          <a href="../details/index.html">Részletek</a>
-        </div>
-        <div class='link-container'>
-          <a href="../prices/index.html">Árak</a>
-        </div>
-        <div class='link-container'>
-          <a href="./index.html">Elérhetőség</a>
-        </div>
-        <div class='link-container'>
-          <a href="../quotes/index.html">Idézetek</a>
-        </div>
-        <div class='link-container'>
-          <a href="../feedbacks/index.html">Visszajelzések</a>
-        </div class='link-container'>
-      </nav>
-      <div id='span-holder' onclick="openNav()">
-        <p>
-          &#9776;<span id='menu'>Menü</span>
-        </p>
-      </div>
-      <div id='contact-box'>
-        <h2>Tisztelt Hölgyem, Tisztelt Uram!</h2>
-        <p>Ha úgy érzi, segítségére lehetek hozzátartozója búcsúztatásában, keressen bizalommal!</p>
-        <h2>Elérhetőségeim:</h2>
-        <div id='contact'>
-          <div class='contact-box'>
-            <i class='fa fa-sharp fa-solid fa-phone'></i>
-            <a href="tel:+36302527559">+3630/252-7559
-            </a>
-          </div>
-          <div class='contact-box'>
-            <i class='fa fa-solid fa-envelope'></i>
-            <a href="mailto:nagyklarav@gmail.com">
-              nagyklarav@gmail.com
-            </a>
-          </div>
-          <div class='contact-box'>
-            <i class='fa fa-facebook'></i>
-            <a href="https://www.facebook.com/profile.php?id=100083359909403" target="_blank" rel="noopener noreferrer">
-              Facebook</a>
-          </div>
+        <div class='contact-box'>
+          <i class='fa fa-facebook'></i>
+          <a href="https://www.facebook.com/profile.php?id=100083359909403" target="_blank" rel="noopener noreferrer">
+            Facebook</a>
         </div>
       </div>
-      <div id='klári'>
-        <img src="../assets/Nagy_Klára3.webp" alt="">
-      </div>
+    </div>
+    <div id='klári'>
+      <img src="../assets/Nagy_Klára3.webp" alt="">
     </div>
   </div>
   <script src="../app.js"></script>

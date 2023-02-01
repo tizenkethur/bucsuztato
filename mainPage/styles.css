@@ -5,15 +5,6 @@ body {
       transparent 20%
     ),
     url(../assets/rsz_mainpage_background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  margin: 0;
-  padding: 0;
-}
-
-@media (max-width: 576px) and (orientation: portrait) {
 }
 
 #main-container {
@@ -27,22 +18,17 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  text-align: justify;
   background-color: rgba(250, 248, 246, 0.8);
   box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
     0 4px 8px -1px rgba(0, 0, 0, 0.12);
   padding: 10px;
   border-radius: 3px;
-}
-
-#text {
-  display: flex;
-  flex-direction: column;
   letter-spacing: 0.8px;
-  text-align: justify;
 }
 
 h2 {
-  margin: 10px;
+  margin-left: 10px;
   font-style: italic;
 }
 
@@ -52,7 +38,7 @@ p {
   font-size: 18px;
 }
 
-#text span {
+#content span {
   color: rgb(136, 59, 4);
   font-style: italic;
   font-size: 20px;
@@ -62,7 +48,7 @@ p {
 
 #klári {
   border-radius: 3px;
-  margin: 0 10px 0 20px;
+  margin: 20px;
   width: 200px;
   box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
     0 4px 8px -1px rgba(0, 0, 0, 0.12);
@@ -77,4 +63,45 @@ p {
   font-weight: bold;
   letter-spacing: 1px;
   text-align: center;
+}
+
+@media (min-width: 576px) {
+  #content {
+    display: inline-block;
+    padding: 20px;
+  }
+  #klári {
+    float: right;
+    margin-top: 10px;
+  }
+
+  #main-container > .quote--container {
+    position: absolute;
+    bottom: 50px;
+    right: 5px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #main-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #content {
+    margin: 30px 0;
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #content {
+    margin: 30px;
+  }
+
+  #main-container > .quote--container {
+    right: 30px;
+  }
 }

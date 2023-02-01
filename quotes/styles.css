@@ -1,7 +1,4 @@
-#background {
-  width: 1519px;
-  margin: 0;
-  padding: 0;
+body {
   background-image: linear-gradient(
       to right,
       rgb(221, 204, 204, 0.6),
@@ -9,9 +6,8 @@
       rgb(30, 28, 24)
     ),
     url(../assets/mountain_sunrise.jpg);
-  background-size: 140%;
-  background-repeat: no-repeat;
 }
+
 
 #main-container {
   display: flex;

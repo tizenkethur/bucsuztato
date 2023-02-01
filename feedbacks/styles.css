@@ -1,16 +1,11 @@
-#background {
-  width: 1519px;
-  height: 740px;
-  margin: 0;
-  padding: 0;
+body {
   background-image: linear-gradient(
       to right,
       rgb(221, 204, 204, 0.6) 10%,
       transparent,
       rgb(30, 28, 24)
     ),
-    url(../assets/mainpage_background.png);
-  background-size: 100%;
+    url(../assets/rsz_mainpage_background.png);
 }
 
 #main-container {
@@ -33,7 +28,7 @@
   overflow: hidden;
   background-color: rgba(250, 248, 246, 0.84);
   box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
-  0 4px 8px -1px rgba(0, 0, 0, 0.12);
+    0 4px 8px -1px rgba(0, 0, 0, 0.12);
   border-radius: 3px;
   padding: 0 40px;
 }
@@ -63,7 +58,7 @@
 }
 
 .slide:before {
-  content: "“";
+  content: '“';
   font-family: 'Times New Roman', Times, serif;
   font-size: 140px;
   align-self: flex-start;

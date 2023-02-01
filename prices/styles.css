@@ -1,14 +1,10 @@
-#background {
-  width: 1519px;
-  margin: 0;
-  padding: 0;
+body {
   background-image: linear-gradient(
       to right,
       rgb(221, 204, 204, 0.6) 10%,
       transparent
     ),
     url(../assets/mountain_sunrise.jpg);
-  background-size: 120%;
 }
 
 #main-container {
@@ -85,15 +81,15 @@ table {
   margin-bottom: 20px;
 }
 
-thead, tr {
+thead,
+tr {
   border-bottom: 1px solid rgb(192, 99, 38);
 }
-
 
 th {
   text-align: center;
   padding: 5px;
-  color:rgb(136, 59, 4)
+  color: rgb(136, 59, 4);
 }
 
 td {
@@ -102,7 +98,7 @@ td {
 }
 
 .price {
-  color:rgb(136, 59, 4);
+  color: rgb(136, 59, 4);
 }
 
 #third-box {
@@ -111,7 +107,7 @@ td {
 }
 
 #third-box a {
-  margin: 0;  
+  margin: 0;
 }
 
 #third-box span {
