@@ -60,6 +60,7 @@ span {
 }
 
 #span-holder {
+  align-self: flex-start;
   width: 160px;
   height: 50px;
   text-align: center;
@@ -91,6 +92,7 @@ span {
   margin-bottom: 0.5rem;
   color: rgba(250, 248, 246, 0.94);
   font-weight: lighter;
+  text-align: center;
 }
 
 .quote::before {
@@ -98,7 +100,7 @@ span {
 }
 
 .quote::after {
- content: "”";
+  content: '”';
 }
 
 .quote--container {

@@ -1,30 +1,35 @@
-#background {
-  width: 1519px;
-  height: 740px;
-  margin: 0;
-  padding: 0;
+body {
   background-image: linear-gradient(
       to right,
       rgba(250, 248, 246, 0.94),
       transparent 20%
     ),
-    url(../assets/mainpage_background.png);
-  background-size: 100%;
+    url(../assets/rsz_mainpage_background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 576px) and (orientation: portrait) {
 }
 
 #main-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 #content {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
   background-color: rgba(250, 248, 246, 0.8);
   box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
     0 4px 8px -1px rgba(0, 0, 0, 0.12);
-  width: 800px;
-  margin: 30px;
   padding: 10px;
   border-radius: 3px;
 }
@@ -32,7 +37,6 @@
 #text {
   display: flex;
   flex-direction: column;
-  width: 600px;
   letter-spacing: 0.8px;
   text-align: justify;
 }
@@ -64,14 +68,11 @@ p {
     0 4px 8px -1px rgba(0, 0, 0, 0.12);
 }
 
-#content > .quote--container {
-  position: absolute;
-  bottom: 50px;
-  right: 30px;
-  width: 270px;
+#main-container > .quote--container {
+  max-width: 270px;
 }
 
-#content > .quote--container > .quote {
+#main-container > .quote--container > .quote {
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 1px;
