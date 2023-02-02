@@ -7,17 +7,10 @@ body {
     url(../assets/mountain_sunrise.jpg);
 }
 
-#main-container {
-  display: flex;
-  justify-content: space-between;
-}
-
 #content {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1200px;
-  font-weight: bold;
-  font-size: 18px;
+  background: none;
+  box-shadow: none;
+  text-align: justify;
 }
 
 .prices-box {
@@ -26,11 +19,11 @@ body {
   background-color: rgba(250, 248, 246, 0.8);
   box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
     0 4px 8px -1px rgba(0, 0, 0, 0.12);
-  width: 460px;
-  margin: 30px;
+  /* width: 460px; */
+  /* width: 100%; */
+  margin: 20px 0;
   padding: 20px;
   border-radius: 3px;
-  text-align: justify;
 }
 
 h3 {
@@ -72,7 +65,7 @@ li {
 }
 
 #second-box {
-  width: 600px;
+  /* width: 600px; */
 }
 
 table {

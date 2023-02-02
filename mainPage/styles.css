@@ -1,30 +1,14 @@
 body {
   background-image: linear-gradient(
-      to right,
+      to bottom,
       rgba(250, 248, 246, 0.94),
       transparent 20%
     ),
     url(../assets/rsz_mainpage_background.png);
 }
 
-#main-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 #content {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
   text-align: justify;
-  background-color: rgba(250, 248, 246, 0.8);
-  box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
-    0 4px 8px -1px rgba(0, 0, 0, 0.12);
-  padding: 10px;
-  border-radius: 3px;
-  letter-spacing: 0.8px;
 }
 
 h2 {

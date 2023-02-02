@@ -13,6 +13,12 @@ body {
   background-position: center;
 }
 
+#main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 nav {
   display: flex;
   flex-direction: column;
@@ -93,6 +99,23 @@ span {
   margin: 30px 30px;
 }
 
+#content, .details-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 3px;
+  font-weight: bolder;
+  background-color: rgba(250, 248, 246, 0.8);
+  box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
+    0 4px 8px -1px rgba(0, 0, 0, 0.12);
+  padding: 10px;
+  border-radius: 3px;
+  letter-spacing: 0.8px;
+  width: 100%;
+}
+
 .quote {
   position: relative;
   letter-spacing: 0.03em;
@@ -111,7 +134,9 @@ span {
 }
 
 .quote--container {
-  width: 400px;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
   border-bottom: 2px solid rgba(250, 248, 246);
   padding-bottom: 0.5rem;
   margin: 20px;

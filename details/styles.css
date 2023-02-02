@@ -1,34 +1,20 @@
 body {
   background-image: linear-gradient(
-      to right,
-      rgb(251, 247, 247),
-      transparent 20%
+      to bottom,
+      rgb(251, 250, 247),
+      transparent 15%
     ),
     url('../assets/pexels-tim-eiden-1222561.jpg');
 }
 
-#main-container {
-  display: flex;
-}
-
 #content {
-  display: flex;
-  flex-direction: column;
-  margin-left: 100px;
+  background: none;
+  box-shadow: none;
 }
 
 .details-box {
-  display: flex;
-  width: 300px;
-  margin: 30px;
-  padding: 20px;
-  border-radius: 3px;
+  margin: 30px 0;
   text-align: justify;
-  font-weight: bold;
-  background-color: rgba(250, 248, 246, 0.84);
-  box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
-    0 4px 8px -1px rgba(0, 0, 0, 0.12);
-  border-radius: 3px;
 }
 
 .details-box ul {
@@ -42,12 +28,12 @@ body {
 
 .hide {
   display: none;
-  margin-left: 30px;
-  width: 700px;
+  /* margin-left: 30px; */
+  /* width: 700px; */
 }
 
 .details-box:hover {
-  width: 1000px;
+  width: 100%;
 }
 
 .question:hover + .hide {

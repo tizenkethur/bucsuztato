@@ -1,31 +1,29 @@
 body {
   background-image: linear-gradient(
-      to right,
+      to bottom,
       rgb(251, 247, 247),
       transparent 20%
     ),
     url(../assets/pexels-tim-eiden-1222561.jpg);
 }
 
-#main-container {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 100px;
+#content {
+  align-items: stretch;
 }
 
 #klári {
-  margin: 30px;
-  margin-left: 120px;
+  margin: 20px;
+  align-self: center;
 }
 
 img {
-  border-radius: 120px;
+  border-radius: 3px;
   box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
     0 4px 8px -1px rgba(0, 0, 0, 0.12);
 }
 
-#introduction-box {
-  display: flex;
+#content {
+  /* display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgba(251, 247, 247, 0.74);
@@ -34,7 +32,7 @@ img {
   width: 800px;
   margin: 30px;
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 3px; */
   text-align: justify;
 }
 
@@ -42,4 +40,15 @@ p {
   margin: 10px;
   font-weight: bolder;
   font-size: 18px;
+}
+
+@media (min-width: 576px) {
+  #content {
+    display: inline-block;
+    padding: 20px;
+  }
+  #klári {
+    float: right;
+    margin-top: 10px;
+  }
 }
