@@ -11,28 +11,7 @@ body {
   align-items: stretch;
 }
 
-#klári {
-  margin: 20px;
-  align-self: center;
-}
-
-img {
-  border-radius: 3px;
-  box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
-    0 4px 8px -1px rgba(0, 0, 0, 0.12);
-}
-
 #content {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgba(251, 247, 247, 0.74);
-  box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
-    0 4px 8px -1px rgba(0, 0, 0, 0.12);
-  width: 800px;
-  margin: 30px;
-  padding: 10px;
-  border-radius: 3px; */
   text-align: justify;
 }
 
@@ -47,7 +26,7 @@ p {
     display: inline-block;
     padding: 20px;
   }
-  #klári {
+  #image {
     float: right;
     margin-top: 10px;
   }

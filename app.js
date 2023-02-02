@@ -8,8 +8,6 @@ links.forEach((link) => {
 function openNav() {
   const mainContainerWidth =
     document.getElementById('main-container').clientWidth;
-  console.log(mainContainerWidth);
-  console.log(`${mainContainerWidth}px`);
   if (mainContainerWidth <= 600) {
     document.getElementById(
       'mySidenav'

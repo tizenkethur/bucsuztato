@@ -19,8 +19,6 @@ body {
   background-color: rgba(250, 248, 246, 0.8);
   box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
     0 4px 8px -1px rgba(0, 0, 0, 0.12);
-  /* width: 460px; */
-  /* width: 100%; */
   margin: 20px 0;
   padding: 20px;
   border-radius: 3px;
@@ -62,10 +60,6 @@ li {
   font-style: italic;
   font-size: 20px;
   color: rgb(136, 59, 4);
-}
-
-#second-box {
-  /* width: 600px; */
 }
 
 table {

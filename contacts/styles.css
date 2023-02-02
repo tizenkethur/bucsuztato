@@ -1,11 +1,4 @@
 body {
-  /* background-image: linear-gradient(
-      to right,
-      rgb(221, 204, 204, 0.6) 10%,
-      transparent,
-      rgb(30, 28, 24)
-    ),
-    url(../assets/pexels-tim-eiden-1222561.jpg); */
   background-image: url(../assets/pexels-tim-eiden-1222561.jpg);
 }
 
@@ -34,10 +27,6 @@ p {
   align-items: center;
 }
 
-.contact-box {
-  /* margin-right: 10px; */
-}
-
 .fa-solid {
   font-size: 28px;
   margin: 0;
@@ -56,9 +45,10 @@ p {
 }
 
 #image {
-  width: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
-  height: 200px;
+  margin: 20px;
   box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
     0 4px 8px -1px rgba(0, 0, 0, 0.12);
   background-image: url('../assets/Nagy_Klára3.webp');
