@@ -6,7 +6,17 @@ links.forEach((link) => {
 });
 
 function openNav() {
-  document.getElementById('mySidenav').style.width = '300px';
+  const mainContainerWidth =
+    document.getElementById('main-container').clientWidth;
+  console.log(mainContainerWidth);
+  console.log(`${mainContainerWidth}px`);
+  if (mainContainerWidth <= 600) {
+    document.getElementById(
+      'mySidenav'
+    ).style.width = `${mainContainerWidth}px`;
+  } else {
+    document.getElementById('mySidenav').style.width = '300px';
+  }
 }
 
 function closeNav() {
