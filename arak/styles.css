@@ -4,7 +4,7 @@ body {
       rgb(221, 204, 204, 0.6) 10%,
       transparent
     ),
-    url(../assets/mountain_sunrise.jpg);
+    url(../assets/mountain_sunrise.webp);
 }
 
 #content {
@@ -131,7 +131,7 @@ td {
     flex-wrap: wrap;
     align-items: flex-start;
   }
-  
+
   .prices-box {
     margin-right: 10px;
   }

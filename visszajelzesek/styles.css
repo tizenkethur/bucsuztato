@@ -5,7 +5,7 @@ body {
       transparent,
       rgb(30, 28, 24)
     ),
-    url(../assets/rsz_mainpage_background.png);
+    url('../assets/mainpage_background.webp');
 }
 
 #content {

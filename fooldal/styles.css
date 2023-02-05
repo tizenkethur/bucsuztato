@@ -4,7 +4,7 @@ body {
       rgba(250, 248, 246, 0.94),
       transparent 20%
     ),
-    url(../assets/rsz_mainpage_background.png);
+    url('../assets/mainpage_background.webp');
 }
 
 #content {
