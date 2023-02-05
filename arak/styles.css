@@ -4,7 +4,7 @@ body {
       rgb(221, 204, 204, 0.6) 10%,
       transparent
     ),
-    url(../assets/mountain_sunrise.webp);
+    url(../assets/mountain_sunrise.jpg);
 }
 
 #content {
@@ -92,10 +92,6 @@ td {
   color: rgb(136, 59, 4);
 }
 
-#second-box {
-  height: 605.2px;
-}
-
 #third-box {
   font-size: 18px;
   padding: 30px;
@@ -134,5 +130,9 @@ td {
 
   .prices-box {
     margin-right: 10px;
+  }
+
+  #second-box {
+    height: 605.2px;
   }
 }
