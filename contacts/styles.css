@@ -1,5 +1,10 @@
 body {
-  background-image: url(../assets/pexels-tim-eiden-1222561.jpg);
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(251, 250, 247),
+      transparent 30%
+    ),
+    url('../assets/pexels-tim-eiden-1222561.jpg');
 }
 
 #content {
@@ -54,4 +59,44 @@ p {
   background-image: url('../assets/Nagy_Klára3.webp');
   background-size: cover;
   background-position: center;
+}
+
+@media (min-width: 576px) {
+  #content {
+    max-width: 550px;
+  }
+}
+
+@media (min-width: 670px) {
+  #main-container {
+    flex-direction: row;
+  }
+
+  #content {
+    margin: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  #main-container {
+    justify-content: space-between;
+  }
+
+  #content {
+    flex-direction: row-reverse;
+    justify-content: center;
+    background: none;
+    box-shadow: none;
+    max-width: 1000px;
+  }
+
+  #text {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 1570px) {
+  #main-container {
+    justify-content: flex-start;
+  }
 }

@@ -11,6 +11,7 @@ body {
   background: none;
   box-shadow: none;
   text-align: justify;
+  padding: 0;
 }
 
 #quote-intro {
