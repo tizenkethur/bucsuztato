@@ -27,7 +27,7 @@ p {
     padding: 20px;
   }
   
-  #image {
+  .image {
     float: right;
     margin-top: 10px;
     shape-outside: circle();

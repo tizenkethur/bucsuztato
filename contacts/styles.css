@@ -49,13 +49,7 @@ p {
   border-radius: 5px;
 }
 
-#image {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  margin: 20px;
-  box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
-    0 4px 8px -1px rgba(0, 0, 0, 0.12);
+.image {
   background-image: url('../assets/Nagy_Klára3.webp');
   background-size: cover;
   background-position: center;

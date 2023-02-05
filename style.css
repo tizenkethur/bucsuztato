@@ -115,7 +115,7 @@ span {
   width: 100%;
 }
 
-#image {
+.image {
   align-self: center;
   width: 250px;
   height: 250px;
