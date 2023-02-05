@@ -50,13 +50,7 @@
     </div>
 
     <div id='content'>
-      <section id="slider-wrapper">
-        <button class="slide-arrow" id="slide-arrow-prev">
-          &#8249;
-        </button>
-        <button class="slide-arrow" id="slide-arrow-next">
-          &#8250;
-        </button>
+      <div id="slider">
         <div id="slides-container">
           <div class='slide'>
             <blockquote>
@@ -224,12 +218,6 @@
                 kérése volt az Ön személye, és úgy gondolom hogy ez a lehető legjobb választásnak bizonyult.
                 Kívánok a továbbiakhoz jó egészséget.
               </p>
-              <!-- <hr>
-                <div class="author">
-                  <p>
-                    M. K.
-                  </p>
-                </div> -->
             </blockquote>
           </div>
           <div class='slide'>
@@ -306,7 +294,19 @@
             </blockquote>
           </div>
         </div>
-      </section>
+        <div class='controls' onclick="prevSlide(-1)" id="prev-arrow">
+          <span>
+            &#8249;
+          </span>
+        </div>
+
+        <div class="controls" id="next-arrow" onclick="nextSlide(1)">
+          <span>
+            &#8250;
+          </span>
+        </div>
+      </div>
+
     </div>
   </div>
   <script src="./feedback-app.js"></script>

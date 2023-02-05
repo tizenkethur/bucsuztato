@@ -21,17 +21,31 @@ function closeNav() {
   document.getElementById('mySidenav').style.width = '0';
 }
 
-const slidesContainer = document.getElementById('slides-container');
-const slide = document.querySelector('.slide');
-const prevButton = document.getElementById('slide-arrow-prev');
-const nextButton = document.getElementById('slide-arrow-next');
+var slides = document.querySelectorAll('.slide');
+var dots = document.querySelectorAll('.dot');
+var index = 0;
 
-nextButton.addEventListener('click', () => {
-  const slideWidth = slide.clientWidth;
-  slidesContainer.scrollLeft += slideWidth;
-});
+function prevSlide(n) {
+  index += n;
+  console.log('prevSlide is called');
+  changeSlide();
+}
 
-prevButton.addEventListener('click', () => {
-  const slideWidth = slide.clientWidth;
-  slidesContainer.scrollLeft -= slideWidth;
-});
+function nextSlide(n) {
+  index += n;
+  changeSlide();
+}
+
+changeSlide();
+
+function changeSlide() {
+  if (index > slides.length - 1) index = 0;
+
+  if (index < 0) index = slides.length - 1;
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = 'none';
+  }
+
+  slides[index].style.display = 'block';
+}
