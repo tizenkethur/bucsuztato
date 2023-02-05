@@ -4,23 +4,18 @@ body {
       rgb(251, 247, 247),
       transparent 20%
     ),
-    url(../assets/rsz_mainpage_background.png);
+    url(../assets/pexels-tim-eiden-1222561.jpg);
 }
 
 #content {
-  background: none;
-  box-shadow: none;
   text-align: justify;
-  padding: 0;
+  max-width: 1000px;
 }
 
 #quote-intro {
-  background-color: rgba(250, 248, 246, 0.74);
-  box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.14),
-    0 4px 8px -1px rgba(0, 0, 0, 0.12);
   padding: 20px;
   border-radius: 3px;
-  font-weight: bold;
+  max-width: 92%;
 }
 
 #quote-intro span {
@@ -36,8 +31,49 @@ body {
   margin-top: 30px;
 }
 
+#content > #quote-box > .quote--container {
+  border-bottom: 1px solid rgb(136, 59, 4);
+}
+
+#quote-box > .quote--container > .quote {
+  color: rgb(136, 59, 4);
+}
+
 .author {
   align-self: flex-end;
-  color: rgba(250, 248, 246);
   font-style: italic;
+}
+
+@media (min-width: 768px) {
+  #main-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #content {
+    margin: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #main-container {
+    justify-content: flex-start;
+  }
+
+  #quote-box {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .prices-box {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 1900px) {
+  #content {
+    max-width: 1800px;
+  }
 }
