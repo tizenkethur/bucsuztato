@@ -1,15 +1,25 @@
 body {
-    background-image: linear-gradient(
-        to bottom,
-        rgb(251, 250, 247),
-        transparent 15%
-      ),
-      url('../assets/pexels-tim-eiden-1222561.jpg');
-  }
-  
+  background-image: linear-gradient(
+      to bottom,
+      rgb(251, 247, 247),
+      transparent 20%
+    ),
+    url('../assets/mountain_sunrise.jpg');
+}
+
+iframe {
+  width: 90vw;
+  max-width: 576px;
+  height: 400px;
+  margin: 20px;
+}
+
+@media (min-width: 1200px) {
   #content {
-    background: none;
-    box-shadow: none;
-    padding: 0px;
-    margin: 0;
+    flex-direction: row;
   }
+
+  iframe {
+    margin-left: 50px;
+  }
+}
